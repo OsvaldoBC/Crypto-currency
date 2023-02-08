@@ -20,7 +20,6 @@ const CryptoHome = createSlice({
   },
   reducers: {},
   extraReducers: {
-    /* eslint-disable */
     [fetchHome.pending]: (state) => {
       state.loading = true;
     },
@@ -32,7 +31,6 @@ const CryptoHome = createSlice({
       state.loading = false;
       state.crypto = action.payload;
     },
-     /* eslint-enable */
   },
 });
 
