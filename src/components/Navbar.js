@@ -19,13 +19,7 @@ export default function Navbar() {
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className="link"
-            to="/about"
-            style={({ isActive }) => (isActive ? { textDecoration: 'underline' } : {})}
-          >
-            About
-          </NavLink>
+          Image
         </li>
       </ul>
     </nav>
