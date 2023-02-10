@@ -64,7 +64,7 @@ React JS, Redux, JavaScript, HTML and CSS
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link] https://cripto-currency.onrender.com
+- [Live Demo Link](https://cripto-currency.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
