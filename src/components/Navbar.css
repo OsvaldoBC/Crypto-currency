@@ -16,10 +16,22 @@ nav {
 
 nav ul {
   list-style: none;
-  gap: 1rem;
+  gap: 2rem;
+  align-items: center;
+}
+
+nav li {
+  color: #fff;
 }
 
 .link {
   text-decoration: none;
-  color: blue;
+  color: #fff;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.logo {
+  width: 15em;
+  filter: invert(2);
 }
