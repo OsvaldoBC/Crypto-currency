@@ -10,16 +10,13 @@ nav {
   padding: 2em;
   display: flex;
   gap: 1em;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
 .flex {
   display: flex;
-}
-
-nav {
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem;
 }
 
 nav ul {
