@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import './GoingBack.css';
 
 function GoingBack() {
   const navigate = useNavigate();
@@ -9,8 +10,8 @@ function GoingBack() {
   };
 
   return (
-    <div>
-      <button type="button" onClick={goBack}>
+    <div className="back-container">
+      <button className="back-btn" type="button" onClick={goBack}>
         <h3>Go Back</h3>
       </button>
     </div>

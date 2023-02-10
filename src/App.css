@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+nav {
+  background: url(./img/banner.jpg) 0 0 no-repeat;
+  background-size: cover;
+  padding: 2em;
+  display: flex;
+  gap: 1em;
+}

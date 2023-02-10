@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchHome } from '../redux/CryptoHome';
+import './Home.css';
 
 function Home() {
   const dispatch = useDispatch();
@@ -27,29 +28,28 @@ function Home() {
         <div>
           <div>
             <input
+              className="imput-text"
               type="text"
               placeholder="Search currency..."
               value={search}
               onChange={handleChange}
             />
           </div>
-          <div>
+          <div className="coins-wrapper">
             {filter.map((item) => (
-              <NavLink to={`/${item.id}`} key={item.id}>
+              <NavLink className="coin" to={`/${item.id}`} key={item.id}>
                 <label key={item.id} htmlFor={item.id}>
-                  <img src={item.icon} alt={item.id} />
-                  <div>
-                    <h2>{item.rank}</h2>
-                    <h2>{item.name}</h2>
-                  </div>
-                  <h3>
+                  <img className="coins-img" src={item.icon} alt={item.id} />
+                  <h2>{item.rank}</h2>
+                  <h2>{item.name}</h2>
+                  <h3 className="coin-price">
                     <b> Price:</b>
                     {' '}
                     {item.price.toFixed(5)}
                     {' '}
                     $
                   </h3>
-                  <button id={item.id} type="button">
+                  <button id={item.id} type="button" className="details-btn">
                     Details
                   </button>
                 </label>
