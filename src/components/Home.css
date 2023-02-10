@@ -1,16 +1,16 @@
-  input {
-    border: solid 1px #e8e8e8;
-    height: 3rem;
-    background-color: #2d4573;
-    color: #fff;
-    padding: 0.5em 0.5em;
-    width: calc(100%);
+input {
+  border: solid 1px #e8e8e8;
+  height: 3rem;
+  background-color: #2d4573;
+  color: #fff;
+  padding: 0.5em 0.5em;
+  width: calc(100%);
 }
 
 input::placeholder {
-    color: #fff;
+  color: #fff;
 }
-  
+
 .coins-wrapper {
   display: flex;
   flex-direction: row;
@@ -32,8 +32,8 @@ input::placeholder {
 }
 
 .coin h2 {
-    text-align: left;
-    padding-left: 90px;
+  text-align: left;
+  padding-left: 90px;
 }
 
 .coin:nth-child(4n + 0),
@@ -47,9 +47,9 @@ input::placeholder {
 }
 
 .coins-img {
-    width: 70px;
-    height: 70px;
-    float: left;
+  width: 70px;
+  height: 70px;
+  float: left;
 }
 
 .coin-price {
@@ -57,10 +57,8 @@ input::placeholder {
 }
 
 .details-btn {
-    padding: 5px;
-    border-radius: 5px;
-    border: 1px solid #334e8e;
-    color: #334e8e;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #334e8e;
+  color: #334e8e;
 }
-
-
